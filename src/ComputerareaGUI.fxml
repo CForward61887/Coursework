@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="314.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TimeScreenController">
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="314.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ComputerareaController">
    <children>
       <Text layoutX="155.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Which computer area do you want to book in?">
          <font>
