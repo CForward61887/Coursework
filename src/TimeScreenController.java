@@ -9,30 +9,30 @@ public class TimeScreenController {
     private String PeriodPressed;
 
     @FXML protected void Period1Pressed(ActionEvent event) {
-        System.out.println("Period1");
+        System.out.println("Period1"); // prints to the console which period was pressed
         PeriodPressed = "Period1";
-        screenChange("ComputerareaGUI", event);
+        screenChange("ComputerareaGUI", event); // Triggers the screen change to the computer area GUI
 
     }
     @FXML protected void Period2Pressed(ActionEvent event) {
-        System.out.println("Period2");
+        System.out.println("Period2"); // prints to the console which period was pressed
         PeriodPressed = "Period2";
-        screenChange("ComputerareaGUI", event);
+        screenChange("ComputerareaGUI", event); // Triggers the screen change to the computer area GUI
     }
     @FXML protected void Period3Pressed(ActionEvent event) {
-        System.out.println("Period3");
+        System.out.println("Period3"); // prints to the console which period was pressed
         PeriodPressed = "Period3";
-        screenChange("ComputerareaGUI", event);
+        screenChange("ComputerareaGUI", event); // Triggers the screen change to the computer area GUI
     }
     @FXML protected void Period4Pressed(ActionEvent event) {
-        System.out.println("Period4");
+        System.out.println("Period4"); // prints to the console which period was pressed
         PeriodPressed = "Period4";
-        screenChange("ComputerareaGUI", event);
+        screenChange("ComputerareaGUI", event); // Triggers the screen change to the computer area GUI
     }
     @FXML protected void Period5Pressed(ActionEvent event) {
-        System.out.println("Period5");
+        System.out.println("Period5"); // prints to the console which period was pressed
         PeriodPressed = "Period5";
-        screenChange("ComputerareaGUI", event);
+        screenChange("ComputerareaGUI", event); // Triggers the screen change to the computer area GUI
     }
 
     private void screenChange(String name, ActionEvent event){

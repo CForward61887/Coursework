@@ -6,9 +6,9 @@ import javafx.stage.Stage;
 public class Login_Screen extends Application{
     @Override
     public void start(Stage stage)throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("LoginScreen.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("LoginScreen.fxml")); // This selects the GUI made in Scene Builder
         Scene scene = new Scene(root,600,400);
-        stage.setTitle("Login Screen");
+        stage.setTitle("Login Screen"); // This sets the name for each scene which is located at the top of the window
         stage.setResizable(false);
         stage.setScene(scene);
 
