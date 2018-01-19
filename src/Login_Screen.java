@@ -14,6 +14,8 @@ public class Login_Screen extends Application{
 
         stage.show();
 
+        Model.DatabaseConnection d = new Model.DatabaseConnection("Computer_Reservation_System.db");
+
     }
     public static void main(String args[]){launch(args);}
 }
