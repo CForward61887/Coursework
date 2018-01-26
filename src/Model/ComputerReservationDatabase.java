@@ -7,11 +7,11 @@ import java.util.List;
 
 public class ComputerReservationDatabase {
 
-    public static void selectAll (List<Usernames> targetList, DatabaseConncection database){
-        PreparedStatement = database.newStatement("SELECT Login_ID, Password FROM Usernames ORDER BY Login_ID");
+    public static void selectAll (List<Usernames> targetList, DatabaseConnection database){
+        PreparedStatement statement = database.newStatement("SELECT Login_ID, Password FROM Model.Usernames ORDER BY Login_ID");
         try {
             if (statement != null){
-                ResultSet results = database.excuteQuery(statement);
+                ResultSet results = database.executeQuery(statement);
 
                 if(results!=null){
                     while(results.next()){

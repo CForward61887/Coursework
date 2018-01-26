@@ -1,3 +1,5 @@
+package Model;
+
 public class Usernames {
     private int login_id;
     private String password;
